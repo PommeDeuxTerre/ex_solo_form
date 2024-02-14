@@ -1,0 +1,68 @@
+/* colors
+black : #2b2d42
+grey : #8d99ae
+white : #edf2f4
+red clear : #ef233c
+red dark : #d90429
+*/
+body {
+    background-color: #2b2d42;
+    color: #edf2f4;
+    font-size: 2em;
+}
+form {
+    background-color: #8d99ae;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    border-radius: 50px;
+    margin: 50px auto;
+}
+form > div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 10px;
+}
+form > div:first-child{
+    margin-top: 100px;
+}
+form > div:last-child{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+input {
+    padding: 5px;
+    border-radius: 10px;
+}
+#password-field {
+    display: flex;
+    flex-direction: row;
+}
+#password {
+    width: 100%;
+}
+input[type=submit]{
+    background-color: #d90429;
+    color: white;
+    align-self: center;
+    width: 40%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+}
+input[type=submit]:hover{
+    cursor: pointer;
+}
+#message {
+    color: green;
+    text-align: center;
+}
+button {
+    font-size: 0.5em;
+    border: none;
+    border-radius: 10px;
+    background-color: #d90429;
+    color: white;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>check âge</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./main.js"></script>
+</head>
+<body>
+    <form onsubmit="event.preventDefault();check_age();">
+        <div>
+            <label for="age">Âge</label>
+            <input type="number" name="age" id="age" required>
+        </div>
+        <div>
+            <input type="submit" value="Envoyer">
+        </div>
+    </form>
+    <p id="message"></p>
+</body>
+</html>
